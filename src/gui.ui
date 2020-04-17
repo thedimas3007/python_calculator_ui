@@ -32,7 +32,7 @@
      <widget class="QPushButton" name="button_add">
       <property name="font">
        <font>
-        <family>SF UI Display</family>
+        <family>Segoe UI</family>
         <pointsize>15</pointsize>
         <weight>75</weight>
         <bold>true</bold>
@@ -65,7 +65,7 @@ QPushButton:pressed {
      <widget class="QPushButton" name="button_neg">
       <property name="font">
        <font>
-        <family>SF UI Display</family>
+        <family>Segoe UI</family>
         <pointsize>15</pointsize>
         <weight>75</weight>
         <bold>true</bold>
@@ -97,7 +97,7 @@ QPushButton:pressed {
      <widget class="QPushButton" name="button_1">
       <property name="font">
        <font>
-        <family>SF UI Display</family>
+        <family>Segoe UI</family>
         <pointsize>15</pointsize>
         <weight>75</weight>
         <bold>true</bold>
@@ -130,7 +130,7 @@ QPushButton:pressed {
      <widget class="QPushButton" name="button_8">
       <property name="font">
        <font>
-        <family>SF UI Display</family>
+        <family>Segoe UI</family>
         <pointsize>15</pointsize>
         <weight>75</weight>
         <bold>true</bold>
@@ -163,7 +163,7 @@ QPushButton:pressed {
      <widget class="QPushButton" name="button_sub">
       <property name="font">
        <font>
-        <family>SF UI Display</family>
+        <family>Segoe UI</family>
         <pointsize>15</pointsize>
         <weight>75</weight>
         <bold>true</bold>
@@ -196,7 +196,7 @@ QPushButton:pressed {
      <widget class="QPushButton" name="button_per">
       <property name="font">
        <font>
-        <family>SF UI Display</family>
+        <family>Segoe UI</family>
         <pointsize>15</pointsize>
         <weight>75</weight>
         <bold>true</bold>
@@ -228,7 +228,7 @@ QPushButton:pressed {
      <widget class="QPushButton" name="button_6">
       <property name="font">
        <font>
-        <family>SF UI Display</family>
+        <family>Segoe UI</family>
         <pointsize>15</pointsize>
         <weight>75</weight>
         <bold>true</bold>
@@ -261,7 +261,7 @@ QPushButton:pressed {
      <widget class="QPushButton" name="button_9">
       <property name="font">
        <font>
-        <family>SF UI Display</family>
+        <family>Segoe UI</family>
         <pointsize>15</pointsize>
         <weight>75</weight>
         <bold>true</bold>
@@ -294,7 +294,7 @@ QPushButton:pressed {
      <widget class="QPushButton" name="button_3">
       <property name="font">
        <font>
-        <family>SF UI Display</family>
+        <family>Segoe UI</family>
         <pointsize>15</pointsize>
         <weight>75</weight>
         <bold>true</bold>
@@ -327,7 +327,7 @@ QPushButton:pressed {
      <widget class="QPushButton" name="button_4">
       <property name="font">
        <font>
-        <family>SF UI Display</family>
+        <family>Segoe UI</family>
         <pointsize>15</pointsize>
         <weight>75</weight>
         <bold>true</bold>
@@ -360,7 +360,7 @@ QPushButton:pressed {
      <widget class="QPushButton" name="button_comma">
       <property name="font">
        <font>
-        <family>SF UI Display</family>
+        <family>Segoe UI</family>
         <pointsize>15</pointsize>
         <weight>75</weight>
         <bold>true</bold>
@@ -393,7 +393,7 @@ QPushButton:pressed {
      <widget class="QPushButton" name="button_multi">
       <property name="font">
        <font>
-        <family>SF UI Display</family>
+        <family>Segoe UI</family>
         <pointsize>15</pointsize>
         <weight>75</weight>
         <bold>true</bold>
@@ -426,7 +426,7 @@ QPushButton:pressed {
      <widget class="QPushButton" name="button_clear">
       <property name="font">
        <font>
-        <family>SF UI Display</family>
+        <family>Segoe UI</family>
         <pointsize>15</pointsize>
         <weight>75</weight>
         <bold>true</bold>
@@ -458,7 +458,7 @@ QPushButton:pressed {
      <widget class="QPushButton" name="button_equal">
       <property name="font">
        <font>
-        <family>SF UI Display</family>
+        <family>Segoe UI</family>
         <pointsize>15</pointsize>
         <weight>75</weight>
         <bold>true</bold>
@@ -491,7 +491,7 @@ QPushButton:pressed {
      <widget class="QPushButton" name="button_5">
       <property name="font">
        <font>
-        <family>SF UI Display</family>
+        <family>Segoe UI</family>
         <pointsize>15</pointsize>
         <weight>75</weight>
         <bold>true</bold>
@@ -524,7 +524,7 @@ QPushButton:pressed {
      <widget class="QPushButton" name="button_7">
       <property name="font">
        <font>
-        <family>SF UI Display</family>
+        <family>Segoe UI</family>
         <pointsize>15</pointsize>
         <weight>75</weight>
         <bold>true</bold>
@@ -590,7 +590,7 @@ QPushButton:pressed {
      <widget class="QPushButton" name="button_2">
       <property name="font">
        <font>
-        <family>SF UI Display</family>
+        <family>Segoe UI</family>
         <pointsize>15</pointsize>
         <weight>75</weight>
         <bold>true</bold>
@@ -623,7 +623,7 @@ QPushButton:pressed {
      <widget class="QPushButton" name="button_div">
       <property name="font">
        <font>
-        <family>SF UI Display</family>
+        <family>Segoe UI</family>
         <pointsize>15</pointsize>
         <weight>75</weight>
         <bold>true</bold>
@@ -665,7 +665,7 @@ QPushButton:pressed {
    </property>
    <property name="font">
     <font>
-     <family>SF UI Display</family>
+     <family>Segoe UI</family>
      <pointsize>-1</pointsize>
     </font>
    </property>
