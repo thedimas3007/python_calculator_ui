@@ -15,6 +15,7 @@ Form.show()
 
 val = 0.0000 # число с нfчала операции (нолики в конце для того чтобы считалось как число с плавающей точкой)
 mode = "" # режим операции (1 -, 2 +, 3 *, 4 /)
+dot = False
 
 def b0():
   global mode 
@@ -106,30 +107,39 @@ def b9():
     mode = ""
 def clear():
   ui.label.setText("0")
-  global val
+  global val, dot
   val = float(ui.label.text())
+  dot = False
 def subtract():
-  global val, mode
+  global val, mode, dot
   val = float(ui.label.text())
   ui.label.setText("0")
   mode = "1"
+  dot = False
 def add():
-  global val, mode
+  global val, mode, dot
   val = float(ui.label.text())
   ui.label.setText("0")
   mode = "2"
+  dot = False
 def multiply():
-  global val, mode
+  global val, mode, dot
   val = float(ui.label.text())
   ui.label.setText("0")
   mode = "3"
+  dot = False
 def divide():
-  global val, mode
+  global val, mode, dot
   val = float(ui.label.text())
   ui.label.setText("0")
   mode = "4"
+  dot = False
+def percent():
+  ui.label.setText(format(float(ui.label.text()) / 100, '.5f'))
+def negative():
+    ui.label.setText(str(0 - float(ui.label.text())))
 def equal():
-  global val, mode
+  global val, mode, dot
   try:
     if   mode == "1":
       val -= float(ui.label.text())
@@ -146,6 +156,12 @@ def equal():
     ui.label.setText(str(int(val)))
   else:
     ui.label.setText(format(val, '.5f'))
+  dot = False
+def comma():
+  global dot
+  if not dot:
+    ui.label.setText(ui.label.text() + ".")
+    dot = True
 
 ui.button_0.clicked.connect(b0)
 ui.button_1.clicked.connect(b1)
@@ -163,6 +179,9 @@ ui.button_multi.clicked.connect(multiply)
 ui.button_add.clicked.connect(add)
 ui.button_sub.clicked.connect(subtract)
 ui.button_equal.clicked.connect(equal)
+ui.button_per.clicked.connect(percent)
+ui.button_neg.clicked.connect(negative)
+ui.button_comma.clicked.connect(comma)
 
 # цикл приложения
 sys.exit(app.exec_())

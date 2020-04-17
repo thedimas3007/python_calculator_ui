@@ -535,13 +535,3 @@ class Ui_Form(object):
         self.button_2.setText(_translate("Form", "2"))
         self.button_div.setText(_translate("Form", "÷"))
         self.label.setText(_translate("Form", "0"))
-
-
-if __name__ == "__main__":
-    import sys
-    app = QtWidgets.QApplication(sys.argv)
-    Form = QtWidgets.QWidget()
-    ui = Ui_Form()
-    ui.setupUi(Form)
-    Form.show()
-    sys.exit(app.exec_())
