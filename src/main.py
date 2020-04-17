@@ -149,13 +149,13 @@ def equal():
       val *= float(ui.label.text())
     elif mode == "4":
       val /= float(ui.label.text())
+    mode = "0"
+    if val == int(val):
+      ui.label.setText(str(int(val)))
+    else:
+      ui.label.setText(format(val, '.5f'))
   except ZeroDivisionError:
     ui.label.setText("Ошибка")
-  mode = "0"
-  if val == int(val):
-    ui.label.setText(str(int(val)))
-  else:
-    ui.label.setText(format(val, '.5f'))
   dot = False
 def comma():
   global dot
