@@ -13,94 +13,94 @@ Form.show()
 
 # логика приложения
 
-val = 0.0000 # число с нfчала операции (нолики в конце для того чтобы считалось как число с плавающей точкой)
+val = 0.0000 # число с начала операции (нолики в конце для того чтобы считалось как число с плавающей точкой)
 mode = "" # режим операции (1 -, 2 +, 3 *, 4 /)
 dot = False
 
 def b0():
   global mode 
-  if ui.label.text() != "0":
+  if ui.label.text() != "0" and len(ui.label.text()) < 16:
     ui.label.setText(ui.label.text() + "0")
   if mode == "0":
     ui.label.setText("0")
     mode = ""
 def b1():
   global mode
-  if ui.label.text() != "0":
+  if ui.label.text() != "0" and len(ui.label.text()) < 16:
     ui.label.setText(ui.label.text() + "1")
-  else:
+  elif len(ui.label.text()) < 16:
     ui.label.setText("1")
   if mode == "0":
     ui.label.setText("1")
     mode = ""
 def b2():
   global mode
-  if ui.label.text() != "0":
+  if ui.label.text() != "0" and len(ui.label.text()) < 16:
     ui.label.setText(ui.label.text() + "2")
-  else:
+  elif len(ui.label.text()) < 16:
     ui.label.setText("2")
   if mode == "0":
     ui.label.setText("2")
     mode = ""
 def b3():
   global mode
-  if ui.label.text() != "0":
+  if ui.label.text() != "0" and len(ui.label.text()) < 16:
     ui.label.setText(ui.label.text() + "3")
-  else:
+  elif len(ui.label.text()) < 16:
     ui.label.setText("3")
   if mode == "0":
     ui.label.setText("3")
     mode = ""
 def b4():
   global mode
-  if ui.label.text() != "0":
+  if ui.label.text() != "0" and len(ui.label.text()) < 16:
     ui.label.setText(ui.label.text() + "4")
-  else:
+  elif len(ui.label.text()) < 16:
     ui.label.setText("4")
   if mode == "0":
     ui.label.setText("4")
     mode = ""
 def b5():
   global mode
-  if ui.label.text() != "0":
+  if ui.label.text() != "0" and len(ui.label.text()) < 16:
     ui.label.setText(ui.label.text() + "5")
-  else:
+  elif len(ui.label.text()) < 16:
     ui.label.setText("5")
   if mode == "0":
     ui.label.setText("5")
     mode = ""
 def b6():
   global mode
-  if ui.label.text() != "0":
+  if ui.label.text() != "0" and len(ui.label.text()) < 16:
     ui.label.setText(ui.label.text() + "6")
-  else:
+  elif len(ui.label.text()) < 16:
     ui.label.setText("6")
   if mode == "0":
     ui.label.setText("6")
     mode = ""
 def b7():
   global mode
-  if ui.label.text() != "0":
+  if ui.label.text() != "0" and len(ui.label.text()) < 16:
     ui.label.setText(ui.label.text() + "7")
-  else:
+  elif len(ui.label.text()) < 16:
     ui.label.setText("7")
   if mode == "0":
     ui.label.setText("7")
     mode = ""
 def b8():
   global mode
-  if ui.label.text() != "0":
+  if ui.label.text() != "0" and len(ui.label.text()) < 16:
     ui.label.setText(ui.label.text() + "8")
-  else:
+  elif len(ui.label.text()) < 16:
     ui.label.setText("8")
   if mode == "0":
     ui.label.setText("8")
     mode = ""
 def b9():
   global mode
-  if ui.label.text() != "0":
+  if ui.label.text() != "0" and len(ui.label.text()) < 16:
     ui.label.setText(ui.label.text() + "9")
-  else:
+  elif len(ui.label.text()) < 16:
     ui.label.setText("9")
   if mode == "0":
     ui.label.setText("9")
@@ -159,7 +159,7 @@ def equal():
   dot = False
 def comma():
   global dot
-  if not dot:
+  if not dot and len(ui.label.text()) < 16:
     ui.label.setText(ui.label.text() + ".")
     dot = True
 
